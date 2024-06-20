@@ -1,0 +1,6 @@
+let usuarioIngresado = prompt("Ingrese su nombre:")
+let mailIngresado = prompt("Ingrese su mail:")
+let telefonoIngresado = prompt("Ingrese su telefono:")
+let montoSolicitado = prompt("Ingrese el monto a solicitar:")
+let porcentajeDeseado = prompt("Ingrese el porcentaje a pagar deseado:")
+let tiempoPagar = prompt("Ingrese el tiempo a pagar:")

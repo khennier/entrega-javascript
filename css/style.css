@@ -1,0 +1,212 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body {
+    background-color:  #1a1f22;
+}
+
+/* HEADER */
+.headerflex {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, #616970, #1b1e22);
+    height: 70px;
+
+}
+ul {
+    list-style: none;
+}
+a:link {
+    text-decoration: none;
+    color: seashell;
+}
+a:visited {
+    text-decoration: none;
+    color: seashell;
+}
+a:visited {
+    text-decoration: none;
+    color: seashell;
+}
+.banner {
+    justify-content: center;
+    margin-top: 8px;
+} 
+
+.bannerpx {
+    height: 60px;
+    width: 200px;
+
+}
+.bannerpx:hover {
+    height: 65px;
+    width: 210px;
+
+}
+
+
+
+
+.button1 {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 12px;
+    padding: 20px;
+    margin: 8px;
+    -webkit-appearance: none;
+    appearance: none;
+    color: seashell;
+    border-radius: 4px;
+
+
+} 
+
+.button1:hover {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 13px;
+    padding: 20px;
+    margin: 8px;
+    -webkit-appearance: none;
+    appearance: none;
+    color: rgb(0, 204, 255);
+    border-radius: 4px;
+    
+
+} 
+/* finaliza header*/
+
+
+
+
+/* EMPIEZA EL MAIN*/
+.bg_color {
+    width: 100%;
+    height: 100%;
+    background: rgb(219, 231, 241);
+    justify-content: center;
+}
+
+.div_main_flex {
+    justify-content: center;
+    display: flex;
+}
+
+.main_img {
+    width: 100%;
+    height: auto;
+}
+.main_flex1 {
+    margin: 5%;
+
+}
+
+.main_container2 {
+    width: 100%;
+    height: 400px;
+    background: rgb(247, 251, 255);
+    justify-content: center;
+}
+
+.parrafo_container2 {
+    margin: 10%;
+}
+
+/*Termina el main*/
+
+/*FORMULARIO DE CONTACTO*/
+
+.contact_color {
+    width: 100%;
+    height: 100%;
+    background: rgb(219, 231, 241);
+    justify-content: center;
+    font-size: 15px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.p_contact {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+}
+
+.form button {
+    padding: 0.5em 1em;
+    border: none;
+    background: rgb(100, 200, 255);
+    cursor: pointer;
+    margin-left: 35%;
+}
+
+
+/*TERMINA FORMULARIO DE CONTACTO*/
+
+
+/*inicia el footer*/
+
+.footer_page {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, #1b1e22, #616970);
+    height: 100%;
+    width: 100%;
+
+}
+
+.footer_redesflex {
+    display: flex;
+    margin-top: 1%;
+}
+
+
+.redes_footer {
+    width: 40px;
+    height: auto;
+    margin: 2px;
+
+}
+
+.redes_footer:hover {
+    width: 43px;
+    height: auto;
+    margin: 2px;
+
+}
+
+.ubicacion {
+    width: 10px;
+    height: auto;
+}
+
+.div_ubication {
+    color: seashell;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 10px;
+    margin-bottom: 10px;
+    margin-left: 20%;
+}
+
+/*Termina el footer*/
